@@ -1,0 +1,294 @@
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------*/
+.wrap{
+	width:960px;
+	display:block;
+	margin:0 auto;
+	margin-bottom:none;
+}
+
+.img{
+	max-width:100%;
+	height:auto;
+}
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+---------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.wrap{
+	width:100%;
+}	
+/*
+.menu_one{
+	display:none;
+}
+
+.menu_two{
+	display:none;
+}
+*/
+.img_wrap img{
+    width:100%;
+    height:auto;
+}
+
+.article_wrapper{
+	width:100%;
+}	
+
+.left_article{
+	width:24%
+}
+
+.middle_article{
+	width:52%
+}
+
+.right_article{
+	width:24%
+}
+
+.left_footer{
+	width:30%;
+	margin-right:3.33%;
+}
+
+.middle_footer{
+	width:30%;
+	margin-right:3.33%;
+}
+
+.right_footer{
+	width:30%;
+	margin-right:3.33%;
+}
+
+}
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------*/
+
+@media only screen and (max-width: 767px) {
+
+.wrap{
+	width:100%;
+}	
+
+.img_wrap img{
+	display:none;
+}
+
+.menu_search{
+	display:none;
+}
+
+.article_wrapper{
+	width:100%;
+}	
+
+.left_article{
+	width:100%;
+	text-align:center;
+}
+
+.middle_article{
+	width:100%;
+	text-align:center;
+}
+
+.right_article{
+	width:100%;
+	text-align:center;
+}	
+	
+.left_footer{
+	width:100%;
+	text-align:center;
+}
+
+.middle_footer{
+	width:100%;
+	text-align:center;
+}
+
+.right_footer{
+	width:100%;
+	text-align:center;
+}
+
+.right_footer ul li img{
+	margin-left:100px;
+}
+
+.form input[type=text]{
+	margin-left:0%;
+	padding:0%;
+	float: right;
+	margin-left: -18%;
+}
+
+.form input[type=submit]{
+	margin-left:44%;
+	padding:0%;
+}	
+	
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+.wrap{
+	width:100%;
+}	
+
+.img_wrap img{
+	display:none;
+}
+
+.menu_search{
+	display:none;
+}
+
+.article_wrapper{
+	width:100%;
+}	
+
+.left_article{
+	width:100%;
+	text-align:center;
+}
+
+.middle_article{
+	width:100%;
+	text-align:center;
+}
+
+.right_article{
+	width:100%;
+	text-align:center;
+}	
+	
+.left_footer{
+	width:100%;
+	text-align:center;
+}
+
+.middle_footer{
+	width:100%;
+	text-align:center;
+}
+
+.right_footer{
+	width:100%;
+	text-align:center;
+}
+
+.right_footer ul li img{
+	margin-left:100px;
+}
+
+.form input[type=text]{
+	margin-left:0%;
+	padding:0%;
+	float: right;
+	margin-left: -18%;
+}
+
+.form input[type=submit]{
+	margin-left:44%;
+	padding:0%;
+}
+
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+.wrap{
+	width:100%;
+}	
+
+.img_wrap img{
+	display:none;
+}
+
+.menu_search{
+	display:none;
+}
+
+.article_wrapper{
+	width:100%;
+}	
+
+.left_article{
+	width:100%;
+	text-align:center;
+}
+
+.middle_article{
+	width:100%;
+	text-align:center;
+}
+
+.right_article{
+	width:100%;
+	text-align:center;
+}	
+	
+.left_footer{
+	width:100%;
+	text-align:center;
+}
+
+.middle_footer{
+	width:100%;
+	text-align:center;
+}
+
+.right_footer{
+	width:100%;
+	text-align:center;
+}
+
+.right_footer ul li img{
+	margin-left:50px;
+}
+
+.form input[type=text]{
+	margin-left:0%;
+	padding:0%;
+	float: right;
+	margin-left: -18%;
+}
+
+.form input[type=submit]{
+	margin-left:44%;
+	padding:0%;
+}
